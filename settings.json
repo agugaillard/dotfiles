@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "One Dark Darker",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorCustomizations": {
+        "[One Dark Darker]": {
+            "tab.activeBorder": "#aaaaaa"
+        },
+        "terminal.ansiBlue": "#52ADF2",
+        "terminal.ansiBrightCyan": "#52ADF2",
+        "terminal.ansiMagenta": "#D55FDE",
+        "terminal.ansiGreen":"#7BE2B3",
+        "terminal.ansiYellow": "#F5C876",
+        "terminal.ansiRed": "#EF596F",
+        "terminal.ansiWhite": "#5C6370",
+        "terminal.background": "#111216",
+        "terminal.foreground": "#ffffff"
+    },
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrains Mono NL",
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Jetbrains Mono NL, Cascadia Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.tokenColorCustomizations": {
+        "[One Dark Darker]": {
+            "functions": "#52ADF2",
+            "types": "#F5C876",
+            "variables": "#EF596F",
+            "strings": "#7BE2B3",
+            "keywords": "#D55FDE",
+            "comments": "#5C6370"
+        },
+    },
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "window.customTitleBarVisibility": "windowed",
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "none",
+}
