@@ -7,5 +7,7 @@ plugins=(git docker direnv asdf fzf)
 source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+setopt HIST_IGNORE_SPACE
+
 source ~/.dotfiles/alias.sh
 source ~/.dotfiles/.env
