@@ -1,0 +1,6 @@
+interface:
+  display_name: "Second brain"
+  short_description: "Project and ticket memory from the current context"
+  default_prompt: "Use $secondbrain to identify the current project and ticket, resume work, and save vault content in Spanish."
+policy:
+  allow_implicit_invocation: true
