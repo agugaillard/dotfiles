@@ -1,7 +1,7 @@
 ---
 tipo: "guia"
 creado: "2026-11-09"
-actualizado: "2026-11-09"
+actualizado: "2026-11-10"
 ejemplo: false
 ---
 
@@ -23,6 +23,10 @@ Español con términos técnicos en inglés. Code, comandos y queries primero; c
 [[Plantillas/Ticket]]: objetivo, TODO, commands del caso, unit tests relacionados y HTTP directamente en Markdown, con curl o sintaxis JetBrains HTTP. Indicá qué verificar en comentarios o assertions.
 
 La nota y `design.md` (si hay un diseño) van juntos en `Tickets/<ticket>/`. Incluí los requests HTTP en el Markdown del ticket; para bloques largos, usá `<details>`. Las decisiones y avances quedan dentro de la nota. No se crean carpetas por tipo de contenido.
+
+## Diario
+
+[[Plantillas/Diario]]: snapshot del pase diario. Los pasos van como checkboxes y se leen los resúmenes anteriores para arrastrar lo que quedó abierto.
 
 ## Uso
 

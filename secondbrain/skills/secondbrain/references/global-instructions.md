@@ -10,11 +10,15 @@ Identify the project and ticket from the request, code path, module, branch,
 worktree, and workspace references. Read only the matching project/ticket notes
 and relevant linked material before planning, editing code, or choosing commands.
 Use recorded commands, queries, decisions, and TODOs as context, checking them
-against the current request and code. If the destination is ambiguous, ask only
+against the current request and code. If the project or ticket is ambiguous, ask only
 for the missing information; do not guess.
 
-Preserve useful new findings and progress following the skill. Write vault content
-in Spanish with English technical terms. Respect requests not to save, task scope,
-and the repository's current instructions. If the skill or vault is unavailable,
-say so and continue using the context that is available.
+Allow vault writes only inside its top-level `Diario/` directory for daily summaries
+and their history or temporary files. Every other vault path is strictly read-only,
+including project and ticket notes, Inbox, templates, indexes, and root history.
+Resolve write destinations to keep them within `Diario/`. Return findings and
+summaries in chat, in Spanish with English technical terms, and save daily summaries
+in `Diario/` unless the user requests chat only. Respect task scope and repository
+instructions. If the skill or vault is unavailable, say so and continue using the
+context that is available.
 <!-- secondbrain:end -->

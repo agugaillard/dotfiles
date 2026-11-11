@@ -25,3 +25,4 @@ cat skills/secondbrain/references/global-instructions.md >> ~/.config/opencode/A
 mkdir -p ~/.secondbrain/"Second Brain"
 cp -R vault/. ~/.secondbrain/"Second Brain"/
 ```
+
